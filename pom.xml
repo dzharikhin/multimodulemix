@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>org.example</groupId>
+    <artifactId>multimodulemix</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+    <modules>
+        <module>coremix</module>
+        <module>onemix</module>
+        <module>twomix</module>
+    </modules>
+
+    <properties>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
+    <scm>
+        <connection>scm:git:git@github.com:dzharikhin/multimodulemix.git</connection>
+        <developerConnection>scm:git:git@github.com:dzharikhin/multimodulemix.git</developerConnection>
+        <tag>HEAD</tag>
+    </scm>
+
+    <distributionManagement>
+        <repository>
+            <id>hh</id>
+            <name>hh releases repository</name>
+            <url>https://m2.hh.ru/content/repositories/releases</url>
+        </repository>
+        <snapshotRepository>
+            <id>hh-snapshots</id>
+            <name>hh snapshots repository</name>
+            <url>https://m2.hh.ru/content/repositories/snapshots</url>
+        </snapshotRepository>
+    </distributionManagement>
+
+</project>
