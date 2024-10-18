@@ -17,4 +17,10 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
+    <scm>
+        <connection>scm:git:git@github.com:dzharikhin/multimodulemix.git</connection>
+        <developerConnection>scm:git:git@github.com:dzharikhin/multimodulemix.git</developerConnection>
+        <tag>HEAD</tag>
+    </scm>
+
 </project>
