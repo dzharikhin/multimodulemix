@@ -9,7 +9,7 @@
 
     <artifactId>coremix</artifactId>
     <packaging>jar</packaging>
-    <version>1.1-SNAPSHOT</version>
+    <version>1.1</version>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
@@ -20,7 +20,7 @@
     <scm>
         <connection>scm:git:git@github.com:dzharikhin/multimodulemix.git</connection>
         <developerConnection>scm:git:git@github.com:dzharikhin/multimodulemix.git</developerConnection>
-        <tag>HEAD</tag>
+        <tag>coremix-1.1</tag>
     </scm>
 
 </project>
