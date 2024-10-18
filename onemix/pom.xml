@@ -4,7 +4,7 @@
     <parent>
         <groupId>org.example</groupId>
         <artifactId>multimodulemix</artifactId>
-        <version>1.1-SNAPSHOT</version>
+        <version>1.0</version>
     </parent>
 
     <artifactId>onemix</artifactId>
@@ -15,7 +15,7 @@
         <dependency>
             <groupId>org.example</groupId>
             <artifactId>coremix</artifactId>
-            <version>1.1-SNAPSHOT</version>
+            <version>1.0</version>
         </dependency>
     </dependencies>
 
